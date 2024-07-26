@@ -25,7 +25,7 @@ fn main() -> io::Result<()> {
         };
 
         if current_floor == -1 {
-            println!("Position of first character that enters the basement: {}", i + 1);
+            println!("first character that enters the basement: {}", i + 1);
             break;
         }
     }
